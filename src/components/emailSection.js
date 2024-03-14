@@ -9,6 +9,7 @@ const EmailSection = () => {
     email: "",
     subject: "",
     message: "",
+    phone: "",
   });
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,13 +27,14 @@ const EmailSection = () => {
         email: "",
         subject: "",
         message: "",
+        phone: "",
       });
     } catch (error) {
       console.log(error);
     }
   };
   return (
-    <form id="emailForm" className="flex flex-col z-10">
+    <form id="emailForm" className="flex flex-col z-10 w-full max-w-md mx-auto">
       <div className="mb-6">
         <label
           for="email"
@@ -49,6 +51,24 @@ const EmailSection = () => {
           required
           className=" placeholder-[#9CA2A9] text-sm rounded-lg block w-full p-2.5"
           placeholder="john@google.com"
+        />
+      </div>
+      <div className="mb-6">
+        <label
+          htmlFor="phone"
+          className="text-white block mb-2 text-sm font-medium"
+        >
+          Phone number
+        </label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          onChange={handleChange}
+          value={emailForm.phone}
+          required
+          className="placeholder-[#9CA2A9] text-sm rounded-lg block w-full p-2.5"
+          placeholder="123-456-7890"
         />
       </div>
       <div className="mb-6">
@@ -89,17 +109,15 @@ const EmailSection = () => {
         type="submit"
         id="submitButton"
         onClick={handleSubmit}
-        className=" text-white font-medium py-2.5 px-5 rounded-lg w-full"
+        className=" bg-white text-gray font-medium py-2.5 px-5 rounded-lg w-full"
       >
         Send Message
       </button>
-     {emailSubmitted && <p
-        id="successMessage"
-        className="text-white text-sm mt-2"
-        
-      >
-        Email sent successfully!
-      </p>}
+      {emailSubmitted && (
+        <p id="successMessage" className="text-white text-sm mt-2">
+          Email sent successfully!
+        </p>
+      )}
     </form>
   );
 };
