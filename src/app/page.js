@@ -406,10 +406,10 @@ export default function Home() {
                       <div className="max-w-[680px] mx-auto text-center xl:text-left">
                         <p className="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7">
                           <span className="mx-2">
-                            Many people have sighed for the &apos;good old days&apos; and
-                            regretted the &apos;passing of the horse. &apos; But today,
-                            when only those who like horses own them, it is a
-                            far better time for horses.
+                            Many people have sighed for the &apos;good old
+                            days&apos; and regretted the &apos;passing of the
+                            horse. &apos; But today, when only those who like
+                            horses own them, it is a far better time for horses.
                           </span>
                         </p>
 
@@ -458,12 +458,12 @@ export default function Home() {
                     </div>
 
                     <p className="font-light mb-[26px] max-w-[320px]">
-                      Lori&apos;s lifelong love for animals is truly inspiring. Her
-                      unwavering dedication to working with horses and animal
-                      rescues is a testament to her deep compassion for all
-                      living beings. Since 1989, Lori has been spreading joy and
-                      happiness through her pony parties, while continuing to
-                      make a positive impact on the lives of animals in
+                      Lori&apos;s lifelong love for animals is truly inspiring.
+                      Her unwavering dedication to working with horses and
+                      animal rescues is a testament to her deep compassion for
+                      all living beings. Since 1989, Lori has been spreading joy
+                      and happiness through her pony parties, while continuing
+                      to make a positive impact on the lives of animals in
                       need.Lori has been involved with animals since she was a
                       little girl, and they are her pride and joy. She has
                       dedicated years to working with horses and horse rescues,
@@ -502,12 +502,12 @@ export default function Home() {
                     </div>
 
                     <p className="font-light mb-[26px] max-w-[320px]">
-                      Lori&apos;s lifelong love for animals is truly inspiring. Her
-                      unwavering dedication to working with horses and animal
-                      rescues is a testament to her deep compassion for all
-                      living beings. Since 1989, Lori has been spreading joy and
-                      happiness through her pony parties, while continuing to
-                      make a positive impact on the lives of animals in
+                      Lori&apos;s lifelong love for animals is truly inspiring.
+                      Her unwavering dedication to working with horses and
+                      animal rescues is a testament to her deep compassion for
+                      all living beings. Since 1989, Lori has been spreading joy
+                      and happiness through her pony parties, while continuing
+                      to make a positive impact on the lives of animals in
                       need.Lori has been involved with animals since she was a
                       little girl, and they are her pride and joy.
                     </p>
@@ -577,8 +577,8 @@ export default function Home() {
             <div className="faq__item px-[30px] pt-7 pb-4 border-b cursor-pointer select-none">
               <div className="flex items-center justify-between mb-[10px]">
                 <h4 className="h4">
-                  What happens to all the animals rescued that aren&apos;t physically
-                  able to be on the petting zoo?
+                  What happens to all the animals rescued that aren&apos;t
+                  physically able to be on the petting zoo?
                 </h4>
 
                 <div className="faq__btn text-accent">
@@ -588,11 +588,11 @@ export default function Home() {
 
               <div className="faq__answer h-0 overflow-hidden">
                 <p className="font-light">
-                  Any horses and ponies that do not meet our program&apos;s standards
-                  are allowed to live out their lives happily in a pasture at
-                  Runabout Farm. Currently, Runabout Farm is home to several
-                  animals, including horses, ponies, goats, ferrets, chickens,
-                  ducks, Guinea pigs, and rabbits.
+                  Any horses and ponies that do not meet our program&apos;s
+                  standards are allowed to live out their lives happily in a
+                  pasture at Runabout Farm. Currently, Runabout Farm is home to
+                  several animals, including horses, ponies, goats, ferrets,
+                  chickens, ducks, Guinea pigs, and rabbits.
                 </p>
               </div>
             </div>
@@ -631,11 +631,11 @@ export default function Home() {
                 <p className="mb-[30px] text-black font-light text-center xl:text-left">
                   In 1973, Lori made a promise to her first pony, Apache. After
                   41 years, her promise became a reality with the establishment
-                  of "Apache&apos;s Promise Animal Rescue." Lori&apos;s commitment to
-                  saving animals has inspired many, but it comes at a cost.
-                  However, her unwavering dedication to helping animals in need
-                  serves as a reminder that even small actions can make a big
-                  difference.
+                  of &quot;Apache&apos;s Promise Animal Rescue.&quot;
+                  Lori&apos;s commitment to saving animals has inspired many,
+                  but it comes at a cost. However, her unwavering dedication to
+                  helping animals in need serves as a reminder that even small
+                  actions can make a big difference.
                 </p>
                 <a
                   href="https://www.facebook.com/apachespromiseinc/"
