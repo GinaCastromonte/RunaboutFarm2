@@ -297,9 +297,9 @@ export default function Home() {
               <h3 className="h3 mb-[10px]">Birthday Parties</h3>
 
               <p className="font-light leading-normal max-w-[300px]">
-                Celebrate your child's special day in style with a pony party!
-                Our birthday party packages provide a magical experience that
-                will be remembered for years to come. Add an extra touch of
+                Celebrate your child&apos;s special day in style with a pony
+                party! Our birthday party packages provide a magical experience
+                that will be remembered for years to come. Add an extra touch of
                 excitement with our optional petting zoo featuring small animals
                 (additional fee applies).
               </p>
@@ -340,8 +340,8 @@ export default function Home() {
 
               <p className="font-light leading-normal max-w-[300px]">
                 Make your fair or festival stand out from the crowd with our
-                pony party entertainment. Whether it's a small community event
-                or a large-scale festival, our pony rides will captivate
+                pony party entertainment. Whether it&apos;s a small community
+                event or a large-scale festival, our pony rides will captivate
                 attendees and add an extra element of excitement. With hands-on
                 experiences for children and optional petting zoo activities,
                 our pony parties are guaranteed to be a hit.
@@ -364,7 +364,7 @@ export default function Home() {
                 Infuse your camp or church event with the magic of a pony party.
                 Our engaging pony rides and hands-on activities provide
                 wholesome entertainment for campers and congregants alike.
-                Whether it's a summer camp adventure or a community church
+                Whether it&apos;s a summer camp adventure or a community church
                 gathering, our pony parties are sure to leave a lasting
                 impression.
               </p>
@@ -406,8 +406,8 @@ export default function Home() {
                       <div className="max-w-[680px] mx-auto text-center xl:text-left">
                         <p className="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7">
                           <span className="mx-2">
-                            Many people have sighed for the 'good old days' and
-                            regretted the 'passing of the horse. ' But today,
+                            Many people have sighed for the &apos;good old days&apos; and
+                            regretted the &apos;passing of the horse. &apos; But today,
                             when only those who like horses own them, it is a
                             far better time for horses.
                           </span>
@@ -458,7 +458,7 @@ export default function Home() {
                     </div>
 
                     <p className="font-light mb-[26px] max-w-[320px]">
-                      Lori's lifelong love for animals is truly inspiring. Her
+                      Lori&apos;s lifelong love for animals is truly inspiring. Her
                       unwavering dedication to working with horses and animal
                       rescues is a testament to her deep compassion for all
                       living beings. Since 1989, Lori has been spreading joy and
@@ -502,7 +502,7 @@ export default function Home() {
                     </div>
 
                     <p className="font-light mb-[26px] max-w-[320px]">
-                      Lori's lifelong love for animals is truly inspiring. Her
+                      Lori&apos;s lifelong love for animals is truly inspiring. Her
                       unwavering dedication to working with horses and animal
                       rescues is a testament to her deep compassion for all
                       living beings. Since 1989, Lori has been spreading joy and
@@ -530,7 +530,7 @@ export default function Home() {
       <section className="faq">
         <div className="container mx-auto">
           <h2 className="faq__title h2 text-center mb-[50px]">
-            We've got answers
+            We&apos;ve got answers
           </h2>
 
           <div className="max-w-5xl mx-auto">
@@ -577,7 +577,7 @@ export default function Home() {
             <div className="faq__item px-[30px] pt-7 pb-4 border-b cursor-pointer select-none">
               <div className="flex items-center justify-between mb-[10px]">
                 <h4 className="h4">
-                  What happens to all the animals rescued that aren't physically
+                  What happens to all the animals rescued that aren&apos;t physically
                   able to be on the petting zoo?
                 </h4>
 
@@ -588,7 +588,7 @@ export default function Home() {
 
               <div className="faq__answer h-0 overflow-hidden">
                 <p className="font-light">
-                  Any horses and ponies that do not meet our program's standards
+                  Any horses and ponies that do not meet our program&apos;s standards
                   are allowed to live out their lives happily in a pasture at
                   Runabout Farm. Currently, Runabout Farm is home to several
                   animals, including horses, ponies, goats, ferrets, chickens,
@@ -625,13 +625,13 @@ export default function Home() {
             <div className="flex justify-between flex-col xl:flex-row gap-x-5">
               <div className="xl:w-[640px]">
                 <h2 className="h2 mb-[20px] text-center xl:text-left">
-                  Apache's Promise Inc.
+                  Apache&apos;s Promise Inc.
                 </h2>
 
                 <p className="mb-[30px] text-black font-light text-center xl:text-left">
                   In 1973, Lori made a promise to her first pony, Apache. After
                   41 years, her promise became a reality with the establishment
-                  of "Apache's Promise Animal Rescue." Lori's commitment to
+                  of "Apache&apos;s Promise Animal Rescue." Lori&apos;s commitment to
                   saving animals has inspired many, but it comes at a cost.
                   However, her unwavering dedication to helping animals in need
                   serves as a reminder that even small actions can make a big
@@ -680,7 +680,7 @@ export default function Home() {
               <h1 className="h1 mb-4 text-white">Contact Us</h1>
             </div>
 
-          <EmailSection />
+            <EmailSection />
           </div>
         </div>
       </section>
