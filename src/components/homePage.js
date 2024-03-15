@@ -120,7 +120,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section id="services" className="services ">
+      <section data-aos="zoom-in" id="services" className="services ">
         <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative py-6 flex items-center xl:items-start -z-10">
           <div className="container mx-auto">
             <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
@@ -225,11 +225,17 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="  section flex items-center justify-center w-full">
+      <section
+        data-aos="zoom-in"
+        className="  section flex items-center justify-center w-full"
+      >
         <ImageSlider images={images} />
       </section>
 
-      <section className="testimonial bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[595px] xl:py-0">
+      <section
+        data-aos="zoom-in"
+        className="testimonial bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[595px] xl:py-0"
+      >
         <div className="testimonial__constainer container mx-auto">
           <div className="flex flex-col items-center gap-x-14 xl:flex-row">
             <div className="max-w-[98%] xl:max-w-[710px]">
@@ -264,7 +270,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="rescue" className="departments section">
+      <section data-aos="zoom-in" id="rescue" className="departments section">
         <div className="departments__bg bg-departments bg-cover xl:bg-auto bg-center bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 py-12 xl:pt-[80px] xl:pb-[90px] relative min-h-[588px] flex items-center">
           <div className="departments__container container mx-auto ">
             <div className="flex justify-between flex-col xl:flex-row gap-x-5">
@@ -301,7 +307,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="team ">
+      <section data-aos="zoom-in" id="about" className="team ">
         <div className="container mx-auto">
           <h2 className="team__title h2 mb-[50px] text-center xl:text-left">
             About Us
@@ -390,11 +396,15 @@ const HomePage = () => {
       </section>
 
       <FaqSection />
-      <section className=" flex items-center justify-center w-full">
+      <section
+        data-aos="zoom-in"
+        className=" flex items-center justify-center w-full"
+      >
         <ImageSlider images={images2} />
       </section>
 
       <section
+        data-aos="zoom-in"
         id="contact"
         className="newsletter bg-accent mt-12 py-12 flex items-center relative overflow-hidden"
       >
@@ -422,7 +432,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <footer className="footer pt-12 xl:pt-[150px]">
+      <footer data-aos="zoom-in" className="footer pt-12 xl:pt-[150px]">
         <div className="container mx-auto pb-12 xl:pb-[50px]">
           <div className="flex flex-col xl:flex-row gap-x-5 gap-y-10">
             <div className="footer__item flex-1">
