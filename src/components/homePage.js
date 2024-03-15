@@ -340,7 +340,7 @@ const HomePage = () => {
                       all living beings. Since 1989, Lori has been spreading joy
                       and happiness through her pony parties, while continuing
                       to make a positive impact on the lives of animals in
-                      need.Lori has been involved with animals since she was a
+                      need. Lori has been involved with animals since she was a
                       little girl, and they are her pride and joy. She has
                       dedicated years to working with horses and horse rescues,
                       as well as many other types of animal rescues.
