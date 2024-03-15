@@ -120,7 +120,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section  id="services" className="services ">
+      <section data-aos="zoom-in" id="services" className="services ">
         <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative py-6 flex items-center xl:items-start -z-10">
           <div className="container mx-auto">
             <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
@@ -139,7 +139,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="container mx-auto mt-8 xl:-mt-[144px]">
+        <div className="container mx-auto mt-8 xl:-mt-[65px]">
           <div className="grid xl:grid-cols-4 gap-5 px-8 xl:px-0">
             <div className="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
               <div className="mb-[15px]">
