@@ -43,7 +43,7 @@ const HomePage = () => {
       <Navbar />
 
       <section
-        data-aos="zoom-in"
+     
         className="hero bg-grey py-12 overflow-hidden"
       >
         <div className="container mx-auto h-full">

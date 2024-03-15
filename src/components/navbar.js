@@ -14,7 +14,7 @@ const Navbar = () => {
     const arrowRightClass = "ri-arrow-right-s-line";
 
   return (
-    <header data-aos="zoom-in" id="home" className="py-8 lg:pt-6 lg:pb-14">
+    <header id="home" className="py-8 lg:pt-6 lg:pb-14">
       <div className="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
         <div className="flex justify-center lg:justify-normal ">
           <a href="#">
