@@ -449,12 +449,12 @@ const HomePage = () => {
               <div className="flex flex-col gap-y-3 mb-10">
                 <div className="flex items-center gap-x-[6px]">
                   <i className="ri-map-pin-fill text-[24px] text-accent"></i>
-                  <div> Westerchester County and Fairfield County</div>
+                  <div> Westchester County and Fairfield County</div>
                 </div>
                 <div className="flex items-center gap-x-[6px]">
                   <i className="ri-mail-fill text-[24px] text-accent"></i>
                   <a href="mailto:runaboutafarm@hotmail.com">
-                    <div>runaboutafarm@hotmail.com</div>
+                    <div>runaboutfarm@hotmail.com</div>
                   </a>
                 </div>
 
