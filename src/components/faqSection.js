@@ -13,10 +13,10 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="faq section">
+    <section data-aos="zoom-in" className="faq section">
       <div className="container mx-auto">
         <h2 className="faq__title h2 text-center mb-[50px]">
-         Frequently Asked Questions:
+          Frequently Asked Questions:
         </h2>
 
         <div className="max-w-5xl mx-auto">
