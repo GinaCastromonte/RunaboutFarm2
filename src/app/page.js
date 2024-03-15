@@ -24,6 +24,7 @@ export default function Home() {
     { src: "/assets/carousel10.jpeg", alt: "Image 3" },
     { src: "/assets/carousel11.jpeg", alt: "Image 4" },
     { src: "/assets/carousel5.jpg", alt: "Image 5" },
+    { src: "/assets/silky-chicken.jpeg", alt: "Image 6" },
   ];
 
   return (
@@ -45,7 +46,7 @@ export default function Home() {
 
               <p className="mb-[50px] md:max-w-xl">
                 We have specialized in creating unforgettable pony parties for
-                families in Fairfield and Lower Westchester County. Book with us
+                families in Fairfield and Westchester County. Book with us
                 today to experience the magic and make memories that last a
                 lifetime.
                 <br />
@@ -111,7 +112,7 @@ export default function Home() {
           <div className="container mx-auto">
             <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
               <h2 className="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">
-                Traveling Petting Zoo and Pony Parties
+                Traveling Pony Rides and Petting Zoo
               </h2>
               <p className=" text-medium text-bold text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none">
                 Experience the joy and excitement of a RunaboutFarm pony party
@@ -405,7 +406,8 @@ export default function Home() {
           <div className="flex flex-col mb-10 lg:mb-0 lg:flex-row lg:items-center lg:gap-x-[58px]">
             <div className="flex-1 z-10 text-center md:text-left">
               <div className="text-base uppercase text-white tracking-[2.24px] font-medium">
-                Got Questions? Please feel free to reach out
+                Got Questions? <br />
+                Please feel free to reach out
               </div>
               <h1 className="h1 mb-4 text-white">Contact Us</h1>
             </div>
@@ -414,6 +416,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <footer className="footer pt-12 xl:pt-[150px]">
         <div className="container mx-auto pb-12 xl:pb-[100px]">
           <div className="flex flex-col xl:flex-row gap-x-5 gap-y-10">
@@ -421,7 +424,7 @@ export default function Home() {
               <a href="">
                 <Image
                   className="mb-[30px]"
-                  src="/assets/img/logo3.png"
+                  src="/assets/img/logo1.png"
                   alt=""
                   width={300}
                   height={300}
@@ -431,7 +434,7 @@ export default function Home() {
               <div className="flex flex-col gap-y-3 mb-10">
                 <div className="flex items-center gap-x-[6px]">
                   <i className="ri-map-pin-fill text-[24px] text-accent"></i>
-                  <div>Lower Westerchester County and Fairfield County</div>
+                  <div> Westerchester County and Fairfield County</div>
                 </div>
                 <div className="flex items-center gap-x-[6px]">
                   <i className="ri-mail-fill text-[24px] text-accent"></i>
@@ -454,14 +457,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.8918402997353!2d-73.55992786719159!3d41.08790297039473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2a3d551534fe1%3A0x6e12451a2652ec5b!2sRunabout%20Farm%20Pony%20Rides!5e0!3m2!1sen!2sus!4v1709758366916!5m2!1sen!2sus"
-            
-              style={{ border: "0" , width: "100%", maxWidth: "450px", maxHeight: "600px"}}
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+                      <div>
+                        <img src="/assets/image015.jpg" alt="Image" width={400} length={500} />
+                      </div>
             <div className="footer__item flex-1 lg:pl-20">
               <h4 className="h4 mb-5">Quick Links</h4>
               <div className="flex gap-x-5">
@@ -508,7 +506,22 @@ export default function Home() {
         <div className="py-[30px] border-t">
           <div className="container mx-auto text-center">
             <div className="font-light text-base">
-              &copy; 2024 All rights reserved.
+              &copy; 2024 All rights reserved. Developed by:
+              <a
+                href="https://www.gcastromonte.com"
+                target="_blank"
+                rel="noopener noreferrer"
+           
+       
+              >
+                <img
+                  src="/../assets/1.png"
+                  alt="Your Logo"
+                  className="logo-image"
+                  width={200}
+                  length={200}
+                />
+              </a>
             </div>
           </div>
         </div>

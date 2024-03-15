@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body {
   @apply text-secondary font-primary text-[17px] leading-8;
+
 }
+
+
 
 h1,
 h2,
@@ -72,13 +77,6 @@ h6 {
 .swiper-button-next {
   right: 24
 }
-/* .photo-carousel {
-  padding: 30px 0; 
-  background-image: url('/assets/img/departments/background3.jpg');
-  background-size: cover; 
-  background-position: center; 
-} */
-
 
 
 /* faq */

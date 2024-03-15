@@ -16,7 +16,7 @@ const FaqSection = () => {
     <section className="faq section">
       <div className="container mx-auto">
         <h2 className="faq__title h2 text-center mb-[50px]">
-          We&apos;ve got answers
+         Frequently Asked Questions:
         </h2>
 
         <div className="max-w-5xl mx-auto">
@@ -35,8 +35,8 @@ const FaqSection = () => {
                     : index === 1
                     ? "Do you breed the animals?"
                     : index === 2
-                    ? "What happens to all the animals rescued that aren&apos;t physically able to be on the petting zoo?"
-                    : "Question ?"}
+                    ? "What happens to all the animals rescued that aren't physically able to be on the petting zoo?"
+                    : "What is the usual duration of the petting zoo experience ?"}
                 </h4>
 
                 <div className="faq__btn text-accent">
@@ -55,8 +55,8 @@ const FaqSection = () => {
                     : index === 1
                     ? `We choose to rescue and rehabilitate animals in need, showering them with love and kindness, rather than contribute to their overpopulation through breeding. Our commitment to providing them with a forever home inspires us every day.`
                     : index === 2
-                    ? `Any horses and ponies that do not meet our program&apos;s standards are allowed to live out their lives happily in a pasture at Runabout Farm. Currently, Runabout Farm is home to several animals, including horses, ponies, goats, ferrets, chickens, ducks, Guinea pigs, and rabbits.`
-                    : `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, ipsam est cumque repellendus omnis, quam magnam sequi autem nam aliquam pariatur illo dignissimos magni! Cumque nihil quia animi obcaecati autem!`}
+                    ? `Any horses and ponies that do not meet our program's standards are allowed to live out their lives happily in a pasture at Runabout Farm. Currently, Runabout Farm is home to several animals, including horses, ponies, goats, ferrets, chickens, ducks, Guinea pigs, and rabbits.`
+                    : `The petting zoo experience usually lasts for 1 hour. However, please give us a call for more information and to book your experience.`}
                 </p>
               </div>
             </div>

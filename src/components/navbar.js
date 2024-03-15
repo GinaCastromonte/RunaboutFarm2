@@ -12,13 +12,14 @@ const Navbar = () => {
     const navClosedClass = "-left-[300px]";
     const arrowLeftClass = "ri-arrow-left-s-line";
     const arrowRightClass = "ri-arrow-right-s-line";
+
   return (
     <header id="home" className="py-8 lg:pt-6 lg:pb-14">
       <div className="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
         <div className="flex justify-center lg:justify-normal ">
           <a href="#">
             <Image
-              src="/assets/img/logo3.png"
+              src="/assets/img/logo1.png"
               alt=""
               width={200}
               height={200}
@@ -30,13 +31,13 @@ const Navbar = () => {
           <div className="flex justify-center items-center gap-x-2 lg:justify-normal">
             <i className="ri-map-pin-2-fill text-2xl text-accent"></i>
             <div className="text-secondary">
-              Lower Westchester County and Fairfield County
+               Westchester County and Fairfield County
             </div>
           </div>
 
           <div className="flex justify-center items-center gap-x-2 lg:justify-normal">
             <i className="ri-phone-fill text-2xl text-accent"></i>
-            <div className="text-secondary">(203)223-1212</div>
+            <div className="text-secondary"> Call or Text: (203)223-1212</div>
           </div>
           <div>
             <a
