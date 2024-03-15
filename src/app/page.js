@@ -46,16 +46,15 @@ export default function Home() {
 
               <p className="mb-[50px] md:max-w-xl">
                 We have specialized in creating unforgettable pony parties for
-                families in Fairfield and Westchester County. Book with us
-                today to experience the magic and make memories that last a
-                lifetime.
+                families in Fairfield and Westchester County. Book with us today
+                to experience the magic and make memories that last a lifetime.
                 <br />
                 *We are not a riding stable and do not offer riding lessons.
               </p>
 
               <Link
                 href="#contact"
-                className="btn btn-lg btn-accent mx-auto xl:mx-0"
+                className="btn btn-lg btn-accent mx-auto w-fit xl:mx-0"
               >
                 Contact us
               </Link>
@@ -108,7 +107,7 @@ export default function Home() {
       </section>
 
       <section id="services" className="services ">
-        <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">
+        <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative py-6 flex items-center xl:items-start -z-10">
           <div className="container mx-auto">
             <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
               <h2 className="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">
@@ -368,14 +367,6 @@ export default function Home() {
                       <br /> *Donations are gratefully accepted to support their
                       ongoing mission of rescue and care.
                     </p>
-                    <div className="flex items-center text-[30px] gap-x-5 text-accent-tertiary">
-                      {/* <a
-                        href="https://www.facebook.com/p/Runabout-Farm-100063766294408/"
-                        className="cursor-pointer hover:text-accent transition-all"
-                      >
-                        <i className="ri-facebook-circle-fill text-[40px]"></i>
-                      </a> */}
-                    </div>
                   </div>
                 </div>
               </div>
@@ -418,7 +409,7 @@ export default function Home() {
       </section>
 
       <footer className="footer pt-12 xl:pt-[150px]">
-        <div className="container mx-auto pb-12 xl:pb-[100px]">
+        <div className="container mx-auto pb-12 xl:pb-[50px]">
           <div className="flex flex-col xl:flex-row gap-x-5 gap-y-10">
             <div className="footer__item flex-1">
               <a href="">
@@ -438,28 +429,25 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-x-[6px]">
                   <i className="ri-mail-fill text-[24px] text-accent"></i>
-                  <div>runaboutafarm@hotmail.com</div>
+                  <a href="mailto:runaboutafarm@hotmail.com">
+                    <div>runaboutafarm@hotmail.com</div>
+                  </a>
                 </div>
+
                 <div className="flex items-center gap-x-[6px]">
                   <i className="ri-phone-fill text-[24px] text-accent"></i>
-                  <div>(203)223-1212</div>
-                </div>
-              </div>
-
-              <div className="flex gap-[14px] text-[30px]">
-                <div className="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
-                  <a
-                    href="https://www.facebook.com/p/Runabout-Farm-100063766294408/"
-                    className="cursor-pointer hover:text-accent transition-all"
-                  >
-                    <i className="ri-facebook-circle-fill text-[30px]"></i>
-                  </a>
+                  <a href="tel:+12032231212">(203)223-1212</a>
                 </div>
               </div>
             </div>
-                      <div>
-                        <img src="/assets/image015.jpg" alt="Image" width={400} length={500} />
-                      </div>
+            <div>
+              <img
+                src="/assets/image015.jpg"
+                alt="Image"
+                width={400}
+                length={500}
+              />
+            </div>
             <div className="footer__item flex-1 lg:pl-20">
               <h4 className="h4 mb-5">Quick Links</h4>
               <div className="flex gap-x-5">
@@ -497,22 +485,31 @@ export default function Home() {
                       Contact Us
                     </a>
                   </li>
+                  <li className="flex mt-4 lg:mt-20 gap-[14px] text-[30px]">
+                    <div className="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                      <a
+                        href="https://www.facebook.com/p/Runabout-Farm-100063766294408/"
+                        className="cursor-pointer hover:text-accent transition-all"
+                      >
+                        <i className="ri-facebook-circle-fill text-[30px]"></i>
+                      </a>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="py-[30px] border-t">
+        <div className="pb-[10px] border-t">
           <div className="container mx-auto text-center">
-            <div className="font-light text-base">
+            <div className="font-light text-base flex flex-col items-center justify-center">
               &copy; 2024 All rights reserved. Developed by:
               <a
                 href="https://www.gcastromonte.com"
                 target="_blank"
                 rel="noopener noreferrer"
-           
-       
+                className="flex items-end justify-end "
               >
                 <img
                   src="/../assets/1.png"

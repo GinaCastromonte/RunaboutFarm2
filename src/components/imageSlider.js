@@ -14,8 +14,15 @@ const ImageSlider = ({ images }) => {
     <div className="container">
       <Swiper
         modules={[Navigation]}
-        spaceBetween={20}
-        slidesPerView={3}
+        spaceBetween={10}
+        slidesPerView={2}
+        breakpoints={{
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        
+        }}
         navigation
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}

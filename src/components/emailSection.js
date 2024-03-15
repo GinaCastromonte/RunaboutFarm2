@@ -86,7 +86,7 @@ const EmailSection = () => {
           value={emailForm.subject}
           required
           className=" placeholder-[#9CA2A9] text-sm rounded-lg block w-full p-2.5"
-          placeholder="Just saying hi"
+          placeholder="I'm interested in booking a party!"
         />
       </div>
       <div className="mb-6">

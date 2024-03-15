@@ -17,7 +17,7 @@ export async function POST(req, res) {
       subject: subject,
       react: (
         <>
-          <h3>Lori, {email} is trying to contact you</h3>
+          <h3>Lori, {email} is trying to contact you from your Runabout Farm website</h3>
           <p>Phone:{phone}</p>
           <p>{message}</p>
 
