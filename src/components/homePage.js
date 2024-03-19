@@ -1,5 +1,5 @@
-'use client'
-import React, { useEffect } from 'react'
+"use client";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ImageSlider from "@/components/imageSlider";
@@ -9,43 +9,39 @@ import Navbar from "@/components/navbar";
 
 import AOS from "aos";
 
-
 const HomePage = () => {
-     useEffect(() => {
-       AOS.init({
-         duration: 1000,
-         easing: "ease-in-out",
-         offset: 200,
-         once: true,
-       });
-     }, []);
-      const images = [
-        { src: "/assets/carousel1.jpg", alt: "Image 1" },
-        { src: "/assets/carousel3.jpg", alt: "Image 2" },
-        { src: "/assets/carousel5.jpg", alt: "Image 3" },
-        { src: "/assets/carousel6.jpg", alt: "Image 4" },
-        { src: "/assets/carousel7.jpg", alt: "Image 5" },
-        { src: "/assets/carousel8.jpeg", alt: "Image 6" },
-        { src: "/assets/carousel9.jpg", alt: "Image 7" },
-        { src: "/assets/carousel12.jpeg", alt: "Image 8" },
-        { src: "/assets/carousel10.jpeg", alt: "Image 9" },
-      ];
-      const images2 = [
-        { src: "/assets/carousel2.jpeg", alt: "Image 1" },
-        { src: "/assets/carousel4.jpg", alt: "Image 2" },
-        { src: "/assets/carousel10.jpeg", alt: "Image 3" },
-        { src: "/assets/carousel11.jpeg", alt: "Image 4" },
-        { src: "/assets/carousel5.jpg", alt: "Image 5" },
-        { src: "/assets/silky-chicken.jpeg", alt: "Image 6" },
-      ];
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      offset: 200,
+      once: true,
+    });
+  }, []);
+  const images = [
+    { src: "/assets/carousel1.jpg", alt: "Image 1" },
+    { src: "/assets/carousel3.jpg", alt: "Image 2" },
+    { src: "/assets/carousel5.jpg", alt: "Image 3" },
+    { src: "/assets/carousel6.jpg", alt: "Image 4" },
+    { src: "/assets/carousel7.jpg", alt: "Image 5" },
+    { src: "/assets/carousel8.jpeg", alt: "Image 6" },
+    { src: "/assets/carousel9.jpg", alt: "Image 7" },
+    { src: "/assets/carousel12.jpeg", alt: "Image 8" },
+    { src: "/assets/carousel10.jpeg", alt: "Image 9" },
+  ];
+  const images2 = [
+    { src: "/assets/carousel2.jpeg", alt: "Image 1" },
+    { src: "/assets/carousel4.jpg", alt: "Image 2" },
+    { src: "/assets/carousel10.jpeg", alt: "Image 3" },
+    { src: "/assets/carousel11.jpeg", alt: "Image 4" },
+    { src: "/assets/carousel5.jpg", alt: "Image 5" },
+    { src: "/assets/silky-chicken.jpeg", alt: "Image 6" },
+  ];
   return (
     <div>
       <Navbar />
 
-      <section
-     
-        className="hero bg-grey py-12 overflow-hidden"
-      >
+      <section className="hero bg-grey py-12 overflow-hidden">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-between h-full">
             <div className="hero__text xl:w-[48%] text-center xl:text-left">
@@ -56,7 +52,11 @@ const HomePage = () => {
                 </div>
               </div>
 
-              <h1 className="h1 mb-6">Welcome to Runabout Farm!</h1>
+              <h1 className="h1 mb-6 relative">
+                <span className="text-transparent bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 bg-clip-text">
+                  Welcome to Runabout Farm!
+                </span>
+              </h1>
 
               <p className="mb-[50px] md:max-w-xl">
                 We have specialized in creating unforgettable pony parties for
@@ -124,9 +124,12 @@ const HomePage = () => {
         <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative py-6 flex items-center xl:items-start -z-10">
           <div className="container mx-auto">
             <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
-              <h2 className="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">
-                Traveling Pony Rides and Petting Zoo
+              <h2 className="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left relative">
+                <span className="text-transparent bg-gradient-to-r from-rose-200 via-amber-200 to-sky-200 bg-clip-text">
+                  Traveling Pony Rides and Petting Zoo
+                </span>
               </h2>
+
               <p className=" text-medium text-bold text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none">
                 Experience the joy and excitement of a RunaboutFarm pony party
                 at your next event! Let us bring smiles to the faces of children
@@ -275,8 +278,10 @@ const HomePage = () => {
           <div className="departments__container container mx-auto ">
             <div className="flex justify-between flex-col xl:flex-row gap-x-5">
               <div className="xl:w-[640px]">
-                <h2 className="h2 mb-[20px] text-center xl:text-left">
-                  Apache&apos;s Promise Inc.
+                <h2 className="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left relative">
+                  <span className="text-transparent bg-gradient-to-r from-rose-200 via-amber-200 to-sky-200 bg-clip-text">
+                    Apache&apos;s Promise Inc.
+                  </span>
                 </h2>
 
                 <p className="font-medium uppercase tracking-[2.24px] mb-[30px] text-black text-center xl:text-left">
@@ -339,11 +344,11 @@ const HomePage = () => {
                       animal rescues is a testament to her deep compassion for
                       all living beings. Since 1989, Lori has been spreading joy
                       and happiness through her pony parties, while continuing
-                      to make a positive impact on the lives of animals in
-                      need. Lori has been involved with animals since she was a
-                      little girl, and they are her pride and joy. She has
-                      dedicated years to working with horses and horse rescues,
-                      as well as many other types of animal rescues.
+                      to make a positive impact on the lives of animals in need.
+                      Lori has been involved with animals since she was a little
+                      girl, and they are her pride and joy. She has dedicated
+                      years to working with horses and horse rescues, as well as
+                      many other types of animal rescues.
                     </p>
                     <div className="flex items-center text-[30px] gap-x-5 text-accent-tertiary">
                       <a
@@ -419,12 +424,16 @@ const HomePage = () => {
 
         <div className=" container mx-auto">
           <div className="flex flex-col mb-10 lg:mb-0 lg:flex-row lg:items-center lg:gap-x-[58px]">
-            <div className="flex-1 z-10 text-center md:text-left">
-              <div className="text-base uppercase text-white tracking-[2.24px] font-medium">
+            <div className="text-base uppercase text-white tracking-[2.24px] font-semibold relative">
+              <span className="text-transparent bg-gradient-to-r from-rose-200 via-amber-200 to-sky-200 bg-clip-text block mb-4 text-lg">
                 Got Questions? <br />
                 Please feel free to reach out
-              </div>
-              <h1 className="h1 mb-4 text-white">Contact Us</h1>
+              </span>
+              <h1 className="h1 mb-4 text-white relative text-4xl font-bold shadow-sm">
+                <span className="text-transparent bg-gradient-to-r from-rose-200 via-amber-200 to-sky-200 bg-clip-text">
+                  Contact Us
+                </span>
+              </h1>
             </div>
 
             <EmailSection />
@@ -439,7 +448,7 @@ const HomePage = () => {
               <a href="">
                 <Image
                   className="mb-[30px]"
-                  src="/assets/img/logo1.png"
+                  src="/assets/finallogo.png"
                   alt=""
                   width={300}
                   height={300}
@@ -539,8 +548,8 @@ const HomePage = () => {
                   src="/../assets/1.png"
                   alt="Your Logo"
                   className="logo-image"
-                  width={200}
-                  length={200}
+                  width={150}
+                  length={150}
                 />
               </a>
             </div>
@@ -549,6 +558,6 @@ const HomePage = () => {
       </footer>
     </div>
   );
-}
+};
 
-export default HomePage
+export default HomePage;

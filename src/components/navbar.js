@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex justify-center lg:justify-normal ">
           <a href="#">
             <Image
-              src="/assets/img/logo1.png"
+              src="/assets/finallogo.png"
               alt=""
               width={200}
               height={200}

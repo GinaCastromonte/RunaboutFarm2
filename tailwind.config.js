@@ -22,14 +22,14 @@ module.exports = {
         primary: "#242a2b",
         secondary: "#808080",
         accent: {
-          DEFAULT: "#1cbccf",
+          DEFAULT: "#23cde1",
           secondary: "#18abbc",
           teriary: "#90c6cd",
         },
         grey: "#e8f0f1",
       },
       fontFamily: {
-        primary: "Poppins",
+        primary: ["Comic Sans MS", "sans-serif"],
       },
       boxShadow: {
         custom1: "0px 2px 40px 0px rgba(8, 70, 78, 0.08)",

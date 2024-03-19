@@ -15,8 +15,10 @@ const FaqSection = () => {
   return (
     <section data-aos="zoom-in" className="faq section">
       <div className="container mx-auto">
-        <h2 className="faq__title h2 text-center mb-[50px]">
-          Frequently Asked Questions:
+        <h2 className="faq__title h2 text-center mb-[50px] relative">
+          <span className="text-transparent bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 bg-clip-text">
+            Frequently Asked Questions:
+          </span>
         </h2>
 
         <div className="max-w-5xl mx-auto">
@@ -53,7 +55,7 @@ const FaqSection = () => {
                   {index === 0
                     ? `Runabout Farm has been saving horses, ponies, and other animals from slaughterhouses and abusive homes for many years. The farm purchases these animals and provides them with veterinary care and medication if needed. Only after their physical and mental health has been fully restored, they are accepted into the pony party program`
                     : index === 1
-                    ? `We choose to rescue and rehabilitate animals in need, showering them with love and kindness, rather than contribute to their overpopulation through breeding. Our commitment to providing them with a forever home inspires us every day.`
+                    ? `No, we choose to rescue and rehabilitate animals in need, showering them with love and kindness, rather than contribute to their overpopulation through breeding. Our commitment to providing them with a forever home inspires us every day.`
                     : index === 2
                     ? `Any horses and ponies that do not meet our program's standards are allowed to live out their lives happily in a pasture at Runabout Farm. Currently, Runabout Farm is home to several animals, including horses, ponies, goats, ferrets, chickens, ducks, Guinea pigs, and rabbits.`
                     : `The petting zoo experience usually lasts for 1 hour. However, please give us a call for more information and to book your experience.`}
