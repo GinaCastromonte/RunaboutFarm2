@@ -448,7 +448,7 @@ const HomePage = () => {
               <a href="">
                 <Image
                   className="mb-[30px]"
-                  src="/assets/finallogo.png"
+                  src="/assets/logo1.png"
                   alt=""
                   width={300}
                   height={300}

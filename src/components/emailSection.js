@@ -73,7 +73,7 @@ const EmailSection = () => {
       </div>
       <div className="mb-6">
         <label
-          for="subject"
+          htmlFor="subject"
           className="text-white block text-sm mb-2 font-medium"
         >
           Subject
@@ -91,7 +91,7 @@ const EmailSection = () => {
       </div>
       <div className="mb-6">
         <label
-          for="message"
+          htmFor="message"
           className="text-white block text-sm mb-2 font-medium"
         >
           Message
